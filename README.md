@@ -1,8 +1,10 @@
-# Awesome Compression Safety [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<div align="center">
+    <h1>Awesome Compression Safety</h1>
+    <a href="https://awesome.re"><img src="https://awesome.re/badge.svg"/></a>
+    <img src=https://img.shields.io/github/watchers/upunaprosk/Awesome-Compression-Safety.svg?style=social >
+</div>
 
-**Awesome LLM compression research papers and tools with a focus on safety.**
-
-### Compression Impact on Fairness, Reliability, and Toxicity
+## Awesome LLM compression research papers and tools with a focus on safety.
 
 Quantization and other model compression techniques significantly improve efficiency, but may also compromise trustworthiness, fairness, and overall model reliability.
 
