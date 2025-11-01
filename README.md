@@ -1,8 +1,12 @@
-# Compression Impact on Fairness, Reliability, and Toxicity [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Compression Safety [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+**Awesome LLM compression research papers and tools with a focus on safety.**
+
+### Compression Impact on Fairness, Reliability, and Toxicity
 
 Quantization and other model compression techniques significantly improve efficiency, but may also compromise trustworthiness, fairness, and overall model reliability.
 
-This repository provides a **curated list of papers, benchmarks, and resources** exploring the *undesired side effects* of model compression — particularly focusing on its impact on: **Fairness**, **Robustness**, **Calibration**,  **Toxicity and Safety**.
+This repository provides a **curated list of papers, benchmarks, and resources** on the *undesired side effects* of model compression - particularly focusing on its impact on: **Fairness**, **Robustness**, **Calibration**,  **Toxicity and Safety**.
 
 <p align="center">
   <img src="https://github.com/upunaprosk/Awesome-Compression-Safety/blob/master/figure-Page-2.png" alt="Compression Side Effects" width="400">
