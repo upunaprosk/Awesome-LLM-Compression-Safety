@@ -4,7 +4,7 @@
     <img src=https://img.shields.io/github/watchers/upunaprosk/Awesome-Compression-Safety.svg?style=social >
 </div>
 
-## Awesome LLM compression research papers and tools with a focus on safety.
+## Awesome LLM compression research papers and tools with a focus on safety
 
 Quantization and other model compression techniques significantly improve efficiency, but may also compromise trustworthiness, fairness, and overall model reliability.
 
