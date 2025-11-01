@@ -1,8 +1,8 @@
 <div align="center">
     <h1>Awesome Compression Safety</h1>
     <a href="https://awesome.re"><img src="https://awesome.re/badge.svg"/></a>
-    <img src=https://img.shields.io/github/watchers/upunaprosk/Awesome-Compression-Safety.svg?style=social >
 </div>
+
 
 ## Awesome LLM compression research papers and tools with a focus on safety
 
