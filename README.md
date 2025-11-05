@@ -16,7 +16,7 @@ This repository provides a **curated list of papers, benchmarks, and resources**
 
 
 
-## Paper List - Compression Side Effects
+## Paper List
 
 ### Fairness: Monolingual and Multilingual
 - **Fair-GPTQ: Bias-Aware Quantization for Large Language Models** (Proskurina et al., 2025) – [arXiv](https://arxiv.org/abs/2509.15206)
@@ -63,3 +63,9 @@ This repository provides a **curated list of papers, benchmarks, and resources**
 - **Assessing Safety Risks and Quantization-Aware Safety-Patching Framework (Q-Resafe)** (Patel et al., 2025, ICML) – [Poster](https://icml.cc/virtual/2025/poster/44278)
 - **HarmLevelBench: Evaluating Harm-Level Compliance and the Impact of Quantization on Model Alignment** (Belkhiter, Zizzo, Maffeis; 2024) – [arXiv](https://arxiv.org/abs/2411.06835)
 
+## Contributing
+This is an active repository and your contributions are always welcome! Before you add papers/tools into the awesome list, please make sure that:
+
+- The paper or tools is related to **Large Language Models (LLMs), Vision Language Models (VLMs), or Multi-Modal Models (MMLMs)**.
+- The link to [Paper] should be the arxiv page, not the pdf page if this is a paper posted on arxiv.
+- If the paper is accpeted, please use the correct publication venue instead of arxiv.
