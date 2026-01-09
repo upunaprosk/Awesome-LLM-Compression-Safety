@@ -74,6 +74,7 @@ This repository provides a **curated list of papers, benchmarks, and resources**
 
 - Model Compression in Practice: Lessons Learned from Real Deployments <br>
   2024 [[Paper]](https://dl.acm.org/doi/10.1145/3613904.3642109)
+- Compressed but Compromised? A Study of Jailbreaking in Compressed LLMs <br> NeurIPS Lock-LLM Workshop 2025 [[Paper]](https://openreview.net/pdf?id=OkNfb8SmLh)
 
 ---
 
