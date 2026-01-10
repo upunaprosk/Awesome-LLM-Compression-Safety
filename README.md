@@ -3,128 +3,220 @@
     <a href="https://awesome.re"><img src="https://awesome.re/badge.svg"/></a>
 </div>
 
+**What breaks when we compress large language models?**
 
-## Awesome LLM compression research papers and tools with a focus on safety
-
-Quantization and other model compression techniques significantly improve efficiency, but may also compromise trustworthiness, fairness, and overall model reliability.
-
-This repository provides a **curated list of papers, benchmarks, and resources** on the *undesired side effects* of model compression - particularly focusing on its impact on: **Fairness**, **Robustness**, **Calibration**,  **Toxicity and Safety**.
-
-<p align="center">
-  <img src="llm_compression_safety.gif" alt="LLM Compression Safety" width="800">
-</p>
-
-
-
-## Paper List
-
-### Fairness (Monolingual & Multilingual)
-
-- Fair-GPTQ: Bias-Aware Quantization for Large Language Models <br>
-  Proskurina et al., 2025 [[Paper]](https://arxiv.org/abs/2509.15206)
-
-- Can Model Compression Improve NLP Fairness <br>
-  Xu & Hu, 2022 [[Paper]](https://arxiv.org/abs/2201.08542)
-
-- A Comparative Study on the Impact of Model Compression Techniques on Fairness in Language Models <br>
-  Ramesh et al., ACL 2023 [[Paper]](https://aclanthology.org/2023.acl-long.878/)
-
-- The Impact of Model Compression on Fairness <br>
-  Kamal, FLAIRS 2024 [[Paper]](https://journals.flvc.org/FLAIRS/article/download/135617/140005/260572)
-
-- You Never Know: Quantization Induces Inconsistent Biases in Vision-Language Foundation Models <br>
-  Slyman et al., 2024 [[Paper]](https://arxiv.org/abs/2410.20265)
-
-- How Does Quantization Affect Multilingual LLMs? <br>
-  Li et al., EMNLP Findings 2024 [[Paper]](https://aclanthology.org/2024.findings-emnlp.935/)
-
-- Understanding the Unfairness in Network Quantization <br>
-  Zhang et al., ICML 2025 [[Paper]](https://icml.cc/virtual/2025/poster/43689)
-
-- Downsized and Compromised?: Assessing the Faithfulness of Model Compression <br>
-  Kamal & Talbert, 2025 [[Paper]](https://arxiv.org/abs/2510.06125)
-
-- The Effect of Model Compression on Fairness in Facial Expression Recognition <br>
-  Stoychev & Gunes, 2022 [[Paper]](https://arxiv.org/abs/2201.01709)
+A curated list of research studying **undesired effects of model compression** in LLMs, VLMs, and multimodal models, with a focus on fairness, robustness, calibration, and safety.  
+Contributions are welcome!
 
 ---
 
-### Robustness
+## 🆕 Recent Papers (2025)
 
-- Benchmarking Post-Training Quantization in LLMs: A Comprehensive Taxonomy <br>
-  Zhou et al., 2025 [[Paper]](https://arxiv.org/abs/2502.13178)
-
-- A Comprehensive Evaluation of Quantization Strategies for Large Language Models <br>
-  Smith et al., ACL Findings 2024 [[Paper]](https://aclanthology.org/2024.findings-acl.726/)
-
-- BiLLM: Pushing the Limit of Post-Training Quantization for LLMs <br>
-  Liu et al., 2024 [[Paper]](https://arxiv.org/abs/2402.04291)
-
-- Exploiting LLM Quantization <br>
-  Egashira et al., NeurIPS 2024 [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2024/file/496720b3c860111b95ac8634349dcc88-Paper-Conference.pdf)
-
-- A Comprehensive Review of Model Compression Techniques in Machine Learning <br>
-  Dantas et al., 2024 [[Paper]](https://link.springer.com/article/10.1007/s10489-024-05747-w)
-
-- Compression Scaling Laws: Unifying Sparsity and Quantization <br>
-  Zhang et al., 2025 [[Paper]](https://arxiv.org/html/2502.16440v1)
-
-- Towards Understanding Model Quantization for Reliable Deep Neural Network Deployment <br>
-  Hu et al., 2023 [[Paper]](https://orbilu.uni.lu/bitstream/10993/59236/1/CAIN2023_quantization%20%281%29.pdf)
-
-- Model Compression in Practice: Lessons Learned from Real Deployments <br>
-  2024 [[Paper]](https://dl.acm.org/doi/10.1145/3613904.3642109)
-- Compressed but Compromised? A Study of Jailbreaking in Compressed LLMs <br> NeurIPS Lock-LLM Workshop 2025 [[Paper]](https://openreview.net/pdf?id=OkNfb8SmLh)
+- Fair-GPTQ: Bias-Aware Quantization for Large Language Models (2025)
+- Understanding the Unfairness in Network Quantization (ICML 2025)
+- Decomposed Trust: Exploring Privacy, Adversarial Robustness, Fairness, and Ethics of Low-Rank LLMs (2025)
+- Compressed but Compromised? Jailbreaking in Compressed LLMs (2025)
 
 ---
 
-### Calibration, Confidence & Calibration Data
+## Surveys
 
-- When Quantization Affects Confidence of Large Language Models? <br>
-  Proskurina et al., NAACL 2024 [[Paper]](https://aclanthology.org/2024.findings-naacl.124/)
+- **A Comprehensive Review of Model Compression Techniques in Machine Learning**  
+  Dantas et al., 2024  
+  https://link.springer.com/article/10.1007/s10489-024-05747-w
 
-- An Underexplored Dilemma between Confidence and Calibration in Quantized Neural Networks <br>
-  Xia et al., 2021 [[Paper]](https://arxiv.org/abs/2111.08163)
-
-- On the Impact of Calibration Data in Post-Training Quantization and Pruning <br>
-  Williams & Aletras, ACL 2024 [[Paper]](https://aclanthology.org/2024.acl-long.544/)
-
-- Self-Calibration for Language Model Quantization and Pruning <br>
-  Li et al., 2025 [[Paper]](https://arxiv.org/abs/2410.17170)
-
-- Preserving LLM Capabilities through Calibration Data Curation: From Analysis to Optimization <br>
-  He et al., NeurIPS 2025 [[Paper]](https://arxiv.org/abs/2510.10618)
-
-- Beware of Calibration Data for Pruning Large Language Models <br>
-  Ji et al., ICLR 2025 [[Paper]](https://openreview.net/forum?id=x83w6yGIWb)
-
-- PD-Quant: Post-Training Quantization Based on Prediction Difference Metric <br>
-  Liu et al., 2022 [[Paper]](https://arxiv.org/abs/2212.07048)
-
-- Interpreting the Effects of Quantization on LLMs <br>
-  Singh et al., 2025 [[Paper]](https://arxiv.org/pdf/2508.16785)
+- **A Review of State-of-the-Art Techniques for Large Language Model Compression**  
+  Dantas et al., 2025  
+  https://link.springer.com/article/10.1007/s40747-025-02019-z
 
 ---
 
-### Toxicity & Safety
+## Scope
 
-- Beyond Perplexity: Multi-dimensional Safety Evaluation of LLM Compression <br>
-  Xu et al., EMNLP Findings 2024 [[Paper]](https://aclanthology.org/2024.findings-emnlp.901/)
+This list focuses on how compression methods (quantization, pruning, distillation, low-rank methods) affect:
 
-- Decoding Compressed Trust: Scrutinizing the Trustworthiness of Efficient LLMs Under Compression <br>
-  Hong et al., ICML 2024 [[Paper]](https://arxiv.org/abs/2403.15447)
+- fairness and bias
+- robustness and reliability
+- calibration and confidence
+- toxicity, alignment, and safety
+- faithfulness and trustworthiness
 
-- Assessing Safety Risks and Quantization-Aware Safety-Patching Framework (Q-Resafe) <br>
-  Patel et al., ICML 2025 [[Paper]](https://icml.cc/virtual/2025/poster/44278)
+Papers that focus only on efficiency or aggregate accuracy, without analyzing behavioral, fairness, robustness, or safety effects, are out of scope.
 
-- HarmLevelBench: Evaluating Harm-Level Compliance and the Impact of Quantization on Model Alignment <br>
-  Belkhiter et al., 2024 [[Paper]](https://arxiv.org/abs/2411.06835)
+---
 
+## Contents
+
+- [Fairness & Bias](#fairness--bias)
+- [Robustness & Reliability](#robustness--reliability)
+- [Calibration & Confidence](#calibration--confidence)
+- [Toxicity & Safety](#toxicity--safety)
+- [Contributing](#contributing)
+
+---
+
+## Fairness & Bias  
+*(newest first)*
+
+- **Does Compression Exacerbate Large Language Models’ Social Bias?**  
+  Ganaie et al., 2025  
+  https://openreview.net/pdf?id=iFFfAbFp8a
+
+- **How Quantization Shapes Bias in Large Language Models**  
+  Marcuzzi et al., 2025  
+  https://arxiv.org/abs/2508.18088
+
+- **Understanding the Unfairness in Network Quantization**  
+  Zhang et al., ICML 2025  
+  https://icml.cc/virtual/2025/poster/43689
+
+- **Fair-GPTQ: Bias-Aware Quantization for Large Language Models**  
+  Proskurina et al., 2025  
+  https://arxiv.org/abs/2509.15206
+
+- **Downsized and Compromised? Assessing the Faithfulness of Model Compression**  
+  Kamal & Talbert, 2025  
+  https://arxiv.org/abs/2510.06125
+
+- **How Does Quantization Affect Multilingual LLMs?**  
+  Li et al., EMNLP Findings 2024  
+  https://aclanthology.org/2024.findings-emnlp.935/
+
+- **You Never Know: Quantization Induces Inconsistent Biases in Vision-Language Foundation Models**  
+  Slyman et al., 2024  
+  https://arxiv.org/abs/2410.20265
+
+- **The Impact of Model Compression on Fairness**  
+  Kamal, FLAIRS 2024  
+  https://journals.flvc.org/FLAIRS/article/download/135617/140005/260572
+
+- **A Comparative Study on the Impact of Model Compression Techniques on Fairness in Language Models**  
+  Ramesh et al., ACL 2023  
+  https://aclanthology.org/2023.acl-long.878/
+
+- **Can Model Compression Improve NLP Fairness**  
+  Xu & Hu, 2022  
+  https://arxiv.org/abs/2201.08542
+
+- **The Effect of Model Compression on Fairness in Facial Expression Recognition**  
+  Stoychev & Gunes, 2022  
+  https://arxiv.org/abs/2201.01709
+
+---
+
+## Robustness & Reliability  
+*(newest first)*
+
+- **Decomposed Trust: Exploring Privacy, Adversarial Robustness, Fairness, and Ethics of Low-Rank LLMs**  
+  Asante et al., 2025  
+  https://arxiv.org/abs/2511.22099
+
+- **Model Hemorrhage and the Robustness Limits of Large Language Models**  
+  Ma et al., 2025  
+  https://arxiv.org/abs/2503.23924
+
+- **Compressed but Compromised? A Study of Jailbreaking in Compressed LLMs**  
+  NeurIPS Lock-LLM Workshop 2025  
+  https://openreview.net/pdf?id=OkNfb8SmLh
+
+- **Benchmarking Post-Training Quantization in LLMs: A Comprehensive Taxonomy**  
+  Zhou et al., 2025  
+  https://arxiv.org/abs/2502.13178
+
+- **Compression Scaling Laws: Unifying Sparsity and Quantization**  
+  Zhang et al., 2025  
+  https://arxiv.org/html/2502.16440v1
+
+- **BiLLM: Pushing the Limit of Post-Training Quantization for LLMs**  
+  Liu et al., 2024  
+  https://arxiv.org/abs/2402.04291
+
+- **Exploiting LLM Quantization**  
+  Egashira et al., NeurIPS 2024  
+  https://proceedings.neurips.cc/paper_files/paper/2024/file/496720b3c860111b95ac8634349dcc88-Paper-Conference.pdf
+
+- **Model Compression in Practice: Lessons Learned from Real Deployments**  
+  ACM, 2024  
+  https://dl.acm.org/doi/10.1145/3613904.3642109
+
+- **Towards Understanding Model Quantization for Reliable Deep Neural Network Deployment**  
+  Hu et al., 2023  
+  https://orbilu.uni.lu/bitstream/10993/59236/1/CAIN2023_quantization%20%281%29.pdf
+
+---
+
+## Calibration & Confidence  
+*(newest first)*
+
+- **Preserving LLM Capabilities through Calibration Data Curation**  
+  He et al., NeurIPS 2025  
+  https://arxiv.org/abs/2510.10618
+
+- **Self-Calibration for Language Model Quantization and Pruning**  
+  Li et al., 2025  
+  https://arxiv.org/abs/2410.17170
+
+- **Beware of Calibration Data for Pruning Large Language Models**  
+  Ji et al., ICLR 2025  
+  https://openreview.net/forum?id=x83w6yGIWb
+
+- **Interpreting the Effects of Quantization on LLMs**  
+  Singh et al., 2025  
+  https://arxiv.org/pdf/2508.16785
+
+- **When Quantization Affects Confidence of Large Language Models?**  
+  Proskurina et al., NAACL 2024  
+  https://aclanthology.org/2024.findings-naacl.124/
+
+- **On the Impact of Calibration Data in Post-Training Quantization and Pruning**  
+  Williams & Aletras, ACL 2024  
+  https://aclanthology.org/2024.acl-long.544/
+
+- **PD-Quant: Post-Training Quantization Based on Prediction Difference Metric**  
+  Liu et al., 2022  
+  https://arxiv.org/abs/2212.07048
+
+- **An Underexplored Dilemma between Confidence and Calibration in Quantized Neural Networks**  
+  Xia et al., 2021  
+  https://arxiv.org/abs/2111.08163
+
+---
+
+## Toxicity & Safety  
+*(newest first)*
+
+- **Assessing Safety Risks and Quantization-Aware Safety-Patching Framework (Q-Resafe)**  
+  Patel et al., ICML 2025  
+  https://icml.cc/virtual/2025/poster/44278
+
+- **Decoding Compressed Trust: Scrutinizing the Trustworthiness of Efficient LLMs Under Compression**  
+  Hong et al., ICML 2024  
+  https://arxiv.org/abs/2403.15447
+
+- **Beyond Perplexity: Multi-dimensional Safety Evaluation of LLM Compression**  
+  Xu et al., EMNLP Findings 2024  
+  https://aclanthology.org/2024.findings-emnlp.901/
+
+- **HarmLevelBench: Evaluating Harm-Level Compliance and the Impact of Quantization on Model Alignment**  
+  Belkhiter et al., 2024  
+  https://arxiv.org/abs/2411.06835
+
+---
 
 ## Contributing
 
-This is an active repository, and your contributions are always welcome! Before adding papers/tools to this awesome list, please make sure that:
+Contributions are welcome.
 
-- The paper is about **compression for** Large Language Models (LLMs), Vision-Language Models (VLMs), or Multimodal Large Language Models (MLLMs).
-- The [Paper] link should point to the **arXiv abstract page** (not the PDF page) if the paper is posted on arXiv.
-- If the paper is accepted, please list the **correct publication venue** instead of arXiv.
+- Papers must study **undesired effects of compression**
+- Use arXiv abstract links when available
+- List the final venue if accepted
+- Keep entries concise and consistent
+- Papers may appear in multiple sections
+
+### Formatting example
+
+```md
+- **Paper Title**  
+  Author et al., Venue Year  
+  https://arxiv.org/abs/XXXX.XXXXX
+```
