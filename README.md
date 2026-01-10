@@ -8,6 +8,11 @@
 A curated list of research studying **undesired effects of model compression** in LLMs, VLMs, and multimodal models, with a focus on fairness, robustness, calibration, and safety.  
 Contributions are welcome!
 
+
+<p align="center">
+  <img src="llm_compression_safety.gif" alt="LLM Compression Safety" width="700">
+</p>
+
 ---
 
 ## 🆕 Recent Papers (2025)
