@@ -1,12 +1,19 @@
 <div align="center">
-    <h1>Awesome Compression Safety</h1>
+    <h1>Awesome LLM Compression Safety</h1>
     <a href="https://awesome.re"><img src="https://awesome.re/badge.svg"/></a>
 </div>
 
+
 **What breaks when we compress large language models?**
 
-A curated list of research studying **undesired effects of model compression** in LLMs, VLMs, and multimodal models, with a focus on fairness, robustness, calibration, and safety.  
+Model compression techniques (quantization, pruning, distillation, low-rank adaptation) often preserve benchmark accuracy, but can silently degrade **fairness, robustness, calibration, and safety**.
+
+This is a curated list of research studying **undesired effects of model compression** in LLMs, VLMs, and multimodal models, with a focus on fairness, robustness, calibration, and safety.  
 Contributions are welcome!
+
+
+> Unlike existing efficiency or compression lists, this repository focuses on
+> *fairness-, robustness-, calibration-, and safety-related regressions* rather than throughput or accuracy alone.
 
 
 <p align="center">
