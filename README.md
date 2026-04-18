@@ -1,6 +1,3 @@
-<div align="center">
-
-<img src="banner.png" width="100%">
 
 <div align="center">
     <h1>Awesome LLM Compression Safety</h1>
