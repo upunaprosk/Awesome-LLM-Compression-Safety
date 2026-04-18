@@ -90,3 +90,17 @@ Model compression techniques, such as quantization, pruning, distillation, and l
 | 24.12 | IBM Research Europe; Trinity College Dublin; Imperial College London | NeurIPS 2024 SafeGenAI | [HarmLevelBench: Evaluating Harm-Level Compliance and the Impact of Quantization on Model Alignment](https://arxiv.org/abs/2411.06835) |
 | 25.02 | Skolkovo Institute of Science and Technology; AIRI; HSE University | arXiv | [Investigating the Impact of Quantization Methods on the Safety and Reliability of Large Language Models](https://arxiv.org/abs/2502.15799) |
 | 25.02 | Harbin Institute of Technology (Shenzhen); Illinois Institute of Technology | arXiv | [Benchmarking Post-Training Quantization in LLMs: A Comprehensive Taxonomy](https://arxiv.org/abs/2502.13178) |
+
+## Cite
+
+If you use this repository in your research, you can cite it as:
+
+```bibtex
+@misc{proskurina2026awesome_llm_compression_safety,
+  title        = {Awesome LLM Compression Safety},
+  author       = {Proskurina, Irina},
+  year         = {2026},
+  howpublished = {\url{https://github.com/upunaprosk/Awesome-LLM-Compression-Safety}},
+  note         = {GitHub repository, accessed 2026}
+}
+```
