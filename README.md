@@ -1,4 +1,8 @@
 <div align="center">
+
+<img src="banner.png" width="100%">
+
+<div align="center">
     <h1>Awesome LLM Compression Safety</h1>
     <a href="https://awesome.re"><img src="https://awesome.re/badge.svg"/></a>
     <p align="center">
