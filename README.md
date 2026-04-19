@@ -67,16 +67,20 @@ Model compression techniques, such as quantization, pruning, distillation, and l
 | 24.12 | ETH Zurich | Conference | [Exploiting LLM Quantization](https://openreview.net/pdf?id=496720b3c860111b95ac8634349dcc88) |
 | 25.05 | University of Calgary; Vector Institute | ICML 2025 | [Does Compression Exacerbate Large Language Models' Social Bias?](https://openreview.net/pdf?id=iFFfAbFp8a) |
 | 25.05 | Ruhr University Bochum; UAR Research Center | NAACL 2025 | [The Impact of Inference Acceleration on Bias of LLMs](https://aclanthology.org/2025.naacl-long.91) |
+| 25.05 | East China Normal University | ACL 2025 Findings | [Hierarchical Safety Realignment: Lightweight Restoration of Safety in Pruned Large Vision-Language Models](https://arxiv.org/abs/2505.16104) |
 | 25.07 | Red Hat AI; IST Austria | ACL 2025 | ["Give Me BF16 or Give Me Death"? Accuracy-Performance Trade-offs in LLM Quantization](https://aclanthology.org/2025.acl-long.1304/) |
 | 25.08 | Sofia University; Tsinghua University; Hebrew University; TU Darmstadt; ATHENE | arXiv | [How Quantization Shapes Bias in Large Language Models](https://arxiv.org/abs/2508.18088) |
 | 25.08 | Dalhousie University | AACL 2025 | [Interpreting the Effects of Quantization on LLMs](https://arxiv.org/abs/2508.16785) |
 | 25.09 | Université Lumière Lyon 2; Université Claude Bernard Lyon 1; École Centrale de Lyon; LIRIS CNRS | arXiv | [Fair-GPTQ: Bias-Aware Quantization for Large Language Models](https://arxiv.org/abs/2509.15206) |
 | 25.10 | Tennessee Tech University | arXiv | [Downsized and Compromised? Assessing the Faithfulness of Model Compression](https://arxiv.org/abs/2510.06125) |
 | 25.10 | University of Hong Kong; Huawei | NeurIPS 2025 | [Preserving LLM Capabilities through Calibration Data Curation](https://arxiv.org/abs/2510.10618) |
+| 25.10 | ETH Zurich | arXiv | [Fewer Weights, More Problems: A Practical Attack on LLM Pruning](https://arxiv.org/abs/2510.07985) |
 | 25.11 | UMass Amherst; Microsoft; University of Maryland | EMNLP 2025 | [Does Quantization Affect Models’ Performance on Long-Context Tasks?](https://aclanthology.org/2025.emnlp-main.479/) |
 | 25.11 | Iowa State University | arXiv | [Decomposed Trust: Exploring Privacy, Adversarial Robustness, Fairness, and Ethics of Low-Rank LLMs](https://arxiv.org/abs/2511.22099) |
+| 25.11 | Seoul National University | arXiv | [Alignment-Aware Quantization for LLM Safety](https://arxiv.org/abs/2511.07842) |
 | 25.11 | GE HealthCare | NeurIPS 2025 (Lock-LLM Workshop) | [Compressed but Compromised? A Study of Jailbreaking in Compressed LLMs](https://openreview.net/pdf?id=OkNfb8SmLh) |
 | 25.12 | Huazhong University of Science and Technology | ICML 2025 | [Understanding the Unfairness in Network Quantization](https://icml.cc/virtual/2025/poster/43689) |
+| 26.01 | Universitas Indonesia | arXiv | [Preserving Fairness and Safety in Quantized LLMs Through Critical Weight Protection](https://arxiv.org/abs/2601.12033) |
 | 26.02 | University College London; University of Tübingen | arXiv | [UniComp: A Unified Evaluation of Large Language Model Compression](https://arxiv.org/abs/2602.09130) |
 | 26.02 | UC Berkeley; Meta Superintelligence Labs | arXiv | [Uncertainty Drives Social Bias Changes in Quantized Large Language Models](https://arxiv.org/abs/2602.06181) |
 
