@@ -79,6 +79,7 @@ Model compression techniques, such as quantization, pruning, distillation, and l
 | 25.11 | Iowa State University | arXiv | [Decomposed Trust: Exploring Privacy, Adversarial Robustness, Fairness, and Ethics of Low-Rank LLMs](https://arxiv.org/abs/2511.22099) |
 | 25.11 | Seoul National University | arXiv | [Alignment-Aware Quantization for LLM Safety](https://arxiv.org/abs/2511.07842) |
 | 25.11 | GE HealthCare | NeurIPS 2025 (Lock-LLM Workshop) | [Compressed but Compromised? A Study of Jailbreaking in Compressed LLMs](https://openreview.net/pdf?id=OkNfb8SmLh) |
+| 25.11 | ALMAnaCH Inria Paris, France | TACL 2025 | [Benchmarking Linguistic Diversity of Large Language Models](https://aclanthology.org/2025.tacl-1.69/) |
 | 25.12 | Huazhong University of Science and Technology | ICML 2025 | [Understanding the Unfairness in Network Quantization](https://icml.cc/virtual/2025/poster/43689) |
 | 26.01 | Universitas Indonesia | arXiv | [Preserving Fairness and Safety in Quantized LLMs Through Critical Weight Protection](https://arxiv.org/abs/2601.12033) |
 | 26.02 | University College London; University of Tübingen | arXiv | [UniComp: A Unified Evaluation of Large Language Model Compression](https://arxiv.org/abs/2602.09130) |
