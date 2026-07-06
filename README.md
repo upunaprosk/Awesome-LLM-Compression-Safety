@@ -54,12 +54,14 @@ Model compression techniques, such as quantization, pruning, distillation, and l
 | 23.10 | UT Austin; Apple | ICLR 2024 | [Compressing LLMs: The Truth Is Rarely Pure and Never Simple](https://arxiv.org/abs/2310.01382) |
 | 23.12 | Carnegie Mellon University; Universidade NOVA de Lisboa; Allen Institute for AI | EMNLP 2023 | [Understanding the Effect of Model Compression on Social Bias in Large Language Models](https://aclanthology.org/2023.emnlp-main.161/) |
 | 23.12 | Cohere For AI; Dyania Health; University of Virginia | ICML 2024 | [On the Fairness Impacts of Hardware Selection in Machine Learning](https://arxiv.org/abs/2312.03886) |
+| 24.01 | MIT | BlackboxNLP Workshop (ACL 2024) | [Pruning for Protection: Increasing Jailbreak Resistance in Aligned LLMs Without Fine-Tuning](https://arxiv.org/abs/2401.10862) |
 | 24.02 | Princeton University | ICML 2024 | [Assessing the Brittleness of Safety Alignment via Pruning and Low-Rank Modifications](https://arxiv.org/abs/2402.05162) |
 | 24.03 | UT Austin; Drexel; MIT; UIUC; Duke; LLNL; CAIS; UC Berkeley; UChicago | ICML 2024 | [Decoding Compressed Trust: Scrutinizing the Trustworthiness of Efficient LLMs Under Compression](https://arxiv.org/abs/2403.15447) |
 | 24.05 | Tennessee Tech University | FLAIRS 2024 | [Beyond Size and Accuracy: The Impact of Model Compression on Fairness](https://journals.flvc.org/FLAIRS/article/view/135792) |
 | 24.05 | ETH Zurich | NeurIPS 2024 | [Exploiting LLM Quantization](https://arxiv.org/abs/2405.18137) |
 | 24.06 | Université Lumière Lyon 2; Université Claude Bernard Lyon 1 | NAACL 2024 | [When Quantization Affects Confidence of Large Language Models?](https://aclanthology.org/2024.findings-naacl.124/) |
 | 24.06 | Penn State; NEC Labs America | NAACL 2024 | [Pruning as a Domain-Specific LLM Extractor](https://aclanthology.org/2024.findings-naacl.91/) |
+| 24.10 | The Pennsylvania State University; Harvard University; Amazon | ICLR 2025 | [Catastrophic Failure of LLM Unlearning via Quantization](https://arxiv.org/abs/2410.16454) |
 | 24.10 | Oregon State University | NeurIPS 2024 (RBFM) | [You Never Know: Quantization Induces Inconsistent Biases in Vision-Language Foundation Models](https://arxiv.org/abs/2410.20265) |
 | 24.11 | MIT | BlackboxNLP @ EMNLP 2024 | [Pruning for Protection: Increasing Jailbreak Resistance in Aligned LLMs Without Fine-Tuning](https://aclanthology.org/2024.blackboxnlp-1.26) |
 | 24.11 | University of Utah; Google DeepMind | EMNLP 2024 | [Beyond Perplexity: Multi-dimensional Safety Evaluation of LLM Compression](https://aclanthology.org/2024.findings-emnlp.901/) |
@@ -95,7 +97,6 @@ Model compression techniques, such as quantization, pruning, distillation, and l
 | 26.05 | Meta | IEEE Cloud Summit 2026 | [Quantization Undoes Alignment: Bias Emergence in Compressed LLMs Across Models and Precision Levels](https://arxiv.org/abs/2605.15208) |
 | 26.06 | Stanford University; California Institute of Technology | arXiv | [Alignment Collapse Under KV Cache Quantization: Diagnosis and Mitigation](https://arxiv.org/abs/2606.09864) |
 | 26.06 | Shandong University | ACM CCS 2026 | [Breaking the Rounding Trap: Securing LLMs against Quantization-Conditioned Backdoors](https://arxiv.org/abs/2606.29239) |
-
 
 
 ---
