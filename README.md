@@ -98,12 +98,6 @@ Model compression techniques, such as quantization, pruning, distillation, and l
 
 
 
-
-
-
-
-
-
 ---
 
 ## Benchmarks
@@ -111,6 +105,7 @@ Model compression techniques, such as quantization, pruning, distillation, and l
 | Date  | Institute | Publication | Paper |
 |:-----:|:---------:|:-----------:|:-----:|
 | 24.03 | UT Austin; Drexel; MIT; UIUC; Duke; LLNL; CAIS; UC Berkeley; UChicago | ICML 2024 | [Decoding Compressed Trust: Scrutinizing the Trustworthiness of Efficient LLMs Under Compression](https://arxiv.org/abs/2403.15447) |
+| 24.10 | Beihang University; ETH Zurich; Carnegie Mellon University | NeurIPS 2024 Datasets and Benchmarks Track | [LLMCBench: Benchmarking Large Language Model Compression for Efficient Deployment](https://arxiv.org/abs/2410.21352) |
 | 24.12 | IBM Research Europe; Trinity College Dublin; Imperial College London | NeurIPS 2024 SafeGenAI | [HarmLevelBench: Evaluating Harm-Level Compliance and the Impact of Quantization on Model Alignment](https://arxiv.org/abs/2411.06835) |
 | 25.02 | Skolkovo Institute of Science and Technology; AIRI; HSE University | arXiv | [Investigating the Impact of Quantization Methods on the Safety and Reliability of Large Language Models](https://arxiv.org/abs/2502.15799) |
 | 25.02 | Harbin Institute of Technology (Shenzhen); Illinois Institute of Technology | arXiv | [Benchmarking Post-Training Quantization in LLMs: A Comprehensive Taxonomy](https://arxiv.org/abs/2502.13178) |
