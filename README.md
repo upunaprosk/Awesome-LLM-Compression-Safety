@@ -65,10 +65,16 @@ Model compression techniques, such as quantization, pruning, distillation, and l
 | 24.11 | University of Utah; Google DeepMind | EMNLP 2024 | [Beyond Perplexity: Multi-dimensional Safety Evaluation of LLM Compression](https://aclanthology.org/2024.findings-emnlp.901/) |
 | 24.11 | Cohere; Cohere For AI | EMNLP 2024 | [How Does Quantization Affect Multilingual LLMs?](https://aclanthology.org/2024.findings-emnlp.935/) |
 | 24.12 | ETH Zurich | Conference | [Exploiting LLM Quantization](https://openreview.net/pdf?id=496720b3c860111b95ac8634349dcc88) |
+| 25.01 | CISPA Helmholtz Center for Information Security; Peking University | ICLR 2025 | [SaLoRA: Safety-Alignment Preserved Low-Rank Adaptation](https://arxiv.org/abs/2501.01765) |
+| 25.02 | Zhejiang University; University of Waterloo; Sun Yat-sen University | USENIX Security 2025 | [Activation Approximations Can Incur Safety Vulnerabilities Even in Aligned LLMs: Comprehensive Analysis and Defense](https://arxiv.org/abs/2502.00840) |
+| 25.04 | The Hong Kong University of Science and Technology | ICLR 2025 | [Durable Quantization Conditioned Misalignment Attack on Large Language Models](https://proceedings.iclr.cc/paper_files/paper/2025/hash/376b1b131609e764f687afca832e62b3-Abstract-Conference.html) |
 | 25.05 | University of Calgary; Vector Institute | ICML 2025 | [Does Compression Exacerbate Large Language Models' Social Bias?](https://openreview.net/pdf?id=iFFfAbFp8a) |
 | 25.05 | Ruhr University Bochum; UAR Research Center | NAACL 2025 | [The Impact of Inference Acceleration on Bias of LLMs](https://aclanthology.org/2025.naacl-long.91) |
 | 25.05 | East China Normal University | ACL 2025 Findings | [Hierarchical Safety Realignment: Lightweight Restoration of Safety in Pruned Large Vision-Language Models](https://arxiv.org/abs/2505.16104) |
+| 25.06 | Zhejiang University; Hangzhou High-Tech Zone (Binjiang) Institute of Blockchain and Data Security; Sun Yat-sen University | ICML 2025 | [Q-resafe: Assessing Safety Risks and Quantization-aware Safety Patching for Quantized Large Language Models](https://arxiv.org/abs/2506.20251) |
+| 25.06 | University of Southampton; University of Liverpool | TACL 2025 | [Safe Pruning LoRA: Robust Distance-Guided Pruning for Safety Alignment in Adaptation of LLMs](https://aclanthology.org/2025.tacl-1.67/) |
 | 25.07 | Red Hat AI; IST Austria | ACL 2025 | ["Give Me BF16 or Give Me Death"? Accuracy-Performance Trade-offs in LLM Quantization](https://aclanthology.org/2025.acl-long.1304/) |
+| 25.07 | Tongji University; University of Electronic Science and Technology of China | NeurIPS 2025 | [SafePTR: Token-Level Jailbreak Defense in Multimodal LLMs via Prune-then-Restore Mechanism](https://arxiv.org/abs/2507.01513) |
 | 25.08 | Sofia University; Tsinghua University; Hebrew University; TU Darmstadt; ATHENE | arXiv | [How Quantization Shapes Bias in Large Language Models](https://arxiv.org/abs/2508.18088) |
 | 25.08 | Dalhousie University | AACL 2025 | [Interpreting the Effects of Quantization on LLMs](https://arxiv.org/abs/2508.16785) |
 | 25.09 | Université Lumière Lyon 2; Université Claude Bernard Lyon 1; École Centrale de Lyon; LIRIS CNRS | arXiv | [Fair-GPTQ: Bias-Aware Quantization for Large Language Models](https://arxiv.org/abs/2509.15206) |
@@ -89,6 +95,14 @@ Model compression techniques, such as quantization, pruning, distillation, and l
 | 26.05 | Meta | IEEE Cloud Summit 2026 | [Quantization Undoes Alignment: Bias Emergence in Compressed LLMs Across Models and Precision Levels](https://arxiv.org/abs/2605.15208) |
 | 26.06 | Stanford University; California Institute of Technology | arXiv | [Alignment Collapse Under KV Cache Quantization: Diagnosis and Mitigation](https://arxiv.org/abs/2606.09864) |
 | 26.06 | Shandong University | ACM CCS 2026 | [Breaking the Rounding Trap: Securing LLMs against Quantization-Conditioned Backdoors](https://arxiv.org/abs/2606.29239) |
+
+
+
+
+
+
+
+
 
 ---
 
