@@ -82,8 +82,13 @@ Model compression techniques, such as quantization, pruning, distillation, and l
 | 25.11 | ALMAnaCH Inria Paris, France | TACL 2025 | [Benchmarking Linguistic Diversity of Large Language Models](https://aclanthology.org/2025.tacl-1.69/) |
 | 25.12 | Huazhong University of Science and Technology | ICML 2025 | [Understanding the Unfairness in Network Quantization](https://icml.cc/virtual/2025/poster/43689) |
 | 26.01 | Universitas Indonesia | arXiv | [Preserving Fairness and Safety in Quantized LLMs Through Critical Weight Protection](https://arxiv.org/abs/2601.12033) |
+| 26.01 | University of Georgia; University of North Texas; Hong Kong Polytechnic University; Northeastern University | arXiv | [Q-realign: Piggybacking Realignment on Quantization for Safe and Efficient LLM Deployment](https://arxiv.org/abs/2601.08089) |
 | 26.02 | University College London; University of Tübingen | arXiv | [UniComp: A Unified Evaluation of Large Language Model Compression](https://arxiv.org/abs/2602.09130) |
 | 26.02 | UC Berkeley; Meta Superintelligence Labs | arXiv | [Uncertainty Drives Social Bias Changes in Quantized Large Language Models](https://arxiv.org/abs/2602.06181) |
+| 26.03 | Shanghai University | TACL 2026 | [Safety-Potential Pruning for Enhancing Safety Prompts Against VLM Jailbreaking Without Retraining](https://arxiv.org/abs/2603.14219) |
+| 26.05 | Meta | IEEE Cloud Summit 2026 | [Quantization Undoes Alignment: Bias Emergence in Compressed LLMs Across Models and Precision Levels](https://arxiv.org/abs/2605.15208) |
+| 26.06 | Stanford University; California Institute of Technology | arXiv | [Alignment Collapse Under KV Cache Quantization: Diagnosis and Mitigation](https://arxiv.org/abs/2606.09864) |
+| 26.06 | Shandong University | ACM CCS 2026 | [Breaking the Rounding Trap: Securing LLMs against Quantization-Conditioned Backdoors](https://arxiv.org/abs/2606.29239) |
 
 ---
 
