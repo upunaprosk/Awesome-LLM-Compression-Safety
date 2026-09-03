@@ -37,11 +37,23 @@ Model compression techniques, such as quantization, pruning, distillation, and l
 ## Table of Contents
 
 - [📑 Papers](#-papers)
+  - [New papers on biases and robustness (2026)](#new-papers-on-biases-and-robustness-2026)
 - [Benchmarks](#benchmarks)
 
 ---
 
 ## 📑 Papers
+
+### New papers on biases and robustness (2026)
+
+- [Preserving Fairness and Safety in Quantized LLMs Through Critical Weight Protection](https://arxiv.org/abs/2601.12033)
+- [Q-realign: Piggybacking Realignment on Quantization for Safe and Efficient LLM Deployment](https://arxiv.org/abs/2601.08089)
+- [Uncertainty Drives Social Bias Changes in Quantized Large Language Models](https://arxiv.org/abs/2602.06181)
+- [Safety-Potential Pruning for Enhancing Safety Prompts Against VLM Jailbreaking Without Retraining](https://arxiv.org/abs/2603.14219)
+- [Widening the Gap: Exploiting LLM Quantization via Outlier Injection](https://arxiv.org/abs/2605.15152)
+- [Quantization Undoes Alignment: Bias Emergence in Compressed LLMs Across Models and Precision Levels](https://arxiv.org/abs/2605.15208)
+- [Alignment Collapse Under KV Cache Quantization: Diagnosis and Mitigation](https://arxiv.org/abs/2606.09864)
+- [Breaking the Rounding Trap: Securing LLMs against Quantization-Conditioned Backdoors](https://arxiv.org/abs/2606.29239)
 
 | Date  | Institute | Publication | Paper |
 |:-----:|:---------:|:-----------:|:-----:|
