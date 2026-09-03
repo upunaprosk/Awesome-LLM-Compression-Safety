@@ -92,7 +92,7 @@ Model compression techniques, such as quantization, pruning, distillation, and l
 | 26.01 | Universitas Indonesia | arXiv | [Preserving Fairness and Safety in Quantized LLMs Through Critical Weight Protection](https://arxiv.org/abs/2601.12033) |
 | 26.01 | University of Georgia; University of North Texas; Hong Kong Polytechnic University; Northeastern University | arXiv | [Q-realign: Piggybacking Realignment on Quantization for Safe and Efficient LLM Deployment](https://arxiv.org/abs/2601.08089) |
 | 26.02 | University College London; University of Tübingen | arXiv | [UniComp: A Unified Evaluation of Large Language Model Compression](https://arxiv.org/abs/2602.09130) |
-| 26.02 | UC Berkeley; Meta Superintelligence Labs | arXiv | [Uncertainty Drives Social Bias Changes in Quantized Large Language Models](https://arxiv.org/abs/2602.06181) |
+| 26.02 | UC Berkeley; Meta Superintelligence Labs | COLM 2026 | [Investigating Social Bias Changes in Quantized Language Models](https://arxiv.org/abs/2602.06181) |
 | 26.03 | Shanghai University | TACL 2026 | [Safety-Potential Pruning for Enhancing Safety Prompts Against VLM Jailbreaking Without Retraining](https://arxiv.org/abs/2603.14219) |
 | 26.04 | Mohamed bin Zayed University of Artificial Intelligence | arXiv | [Shorter, but Still Trustworthy? An Empirical Study of Chain-of-Thought Compression](https://arxiv.org/abs/2604.04120) |
 | 26.04 | Zhejiang University; National University of Singapore | WWW 2026 | [LLMQuA: Practical Backdoor Injection on Large Language Model Quantization](https://dl.acm.org/doi/10.1145/3774904.3792256) |
