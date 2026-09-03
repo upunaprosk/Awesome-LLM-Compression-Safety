@@ -101,6 +101,8 @@ Model compression techniques, such as quantization, pruning, distillation, and l
 | 26.06 | Stanford University; California Institute of Technology | arXiv | [Alignment Collapse Under KV Cache Quantization: Diagnosis and Mitigation](https://arxiv.org/abs/2606.09864) |
 | 26.06 | University of Luebeck | arXiv | [FloatDoor: Platform-Triggered Backdoors in LLMs](https://arxiv.org/abs/2606.19535) |
 | 26.06 | Shandong University | ACM CCS 2026 | [Breaking the Rounding Trap: Securing LLMs against Quantization-Conditioned Backdoors](https://arxiv.org/abs/2606.29239) |
+| 26.09 | Jean Monnet University | EMNLP 2026 | [Debias-SparseGPT: Bias-Aware Pruning for Large Language Models](https://arxiv.org/abs/2609.02496) |
+
 
 ---
 
