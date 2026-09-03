@@ -43,7 +43,7 @@ Model compression techniques, such as quantization, pruning, distillation, and l
 
 ## 📑 Papers
 
-| Date  | Institute | Publication | Paper |
+| Date  | Institute | Venue | Paper |
 |:-----:|:---------:|:-----------:|:-----:|
 | 20.10 | Google Research | arXiv | [Characterising Bias in Compressed Models](https://arxiv.org/abs/2010.03058) |
 | 22.01 | University of California | arXiv | [Can Model Compression Improve NLP Fairness](https://arxiv.org/abs/2201.08542) |
