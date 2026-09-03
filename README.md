@@ -57,22 +57,29 @@ Model compression techniques, such as quantization, pruning, distillation, and l
 | 24.01 | MIT | BlackboxNLP Workshop (ACL 2024) | [Pruning for Protection: Increasing Jailbreak Resistance in Aligned LLMs Without Fine-Tuning](https://arxiv.org/abs/2401.10862) |
 | 24.02 | Princeton University | ICML 2024 | [Assessing the Brittleness of Safety Alignment via Pruning and Low-Rank Modifications](https://arxiv.org/abs/2402.05162) |
 | 24.03 | UT Austin; Drexel; MIT; UIUC; Duke; LLNL; CAIS; UC Berkeley; UChicago | ICML 2024 | [Decoding Compressed Trust: Scrutinizing the Trustworthiness of Efficient LLMs Under Compression](https://arxiv.org/abs/2403.15447) |
+| 24.04 | Enkrypt AI | arXiv | [INCREASED LLM VULNERABILITIES FROM FINE-TUNING AND QUANTIZATION](https://arxiv.org/abs/2404.04392) |
 | 24.05 | Tennessee Tech University | FLAIRS 2024 | [Beyond Size and Accuracy: The Impact of Model Compression on Fairness](https://journals.flvc.org/FLAIRS/article/view/135792) |
 | 24.05 | ETH Zurich | NeurIPS 2024 | [Exploiting LLM Quantization](https://arxiv.org/abs/2405.18137) |
 | 24.06 | Université Lumière Lyon 2; Université Claude Bernard Lyon 1 | NAACL 2024 | [When Quantization Affects Confidence of Large Language Models?](https://aclanthology.org/2024.findings-naacl.124/) |
 | 24.06 | Penn State; NEC Labs America | NAACL 2024 | [Pruning as a Domain-Specific LLM Extractor](https://aclanthology.org/2024.findings-naacl.91/) |
+| 24.06 | University of Science and Technology of China | arXiv | [Self and Cross-Model Distillation for LLMs: Effective Methods for Refusal Pattern Alignment](https://arxiv.org/abs/2406.11285) |
 | 24.10 | The Pennsylvania State University; Harvard University; Amazon | ICLR 2025 | [Catastrophic Failure of LLM Unlearning via Quantization](https://arxiv.org/abs/2410.16454) |
 | 24.10 | Oregon State University | NeurIPS 2024 (RBFM) | [You Never Know: Quantization Induces Inconsistent Biases in Vision-Language Foundation Models](https://arxiv.org/abs/2410.20265) |
 | 24.11 | MIT | BlackboxNLP @ EMNLP 2024 | [Pruning for Protection: Increasing Jailbreak Resistance in Aligned LLMs Without Fine-Tuning](https://aclanthology.org/2024.blackboxnlp-1.26) |
 | 24.11 | University of Utah; Google DeepMind | EMNLP 2024 | [Beyond Perplexity: Multi-dimensional Safety Evaluation of LLM Compression](https://aclanthology.org/2024.findings-emnlp.901/) |
 | 24.11 | Cohere; Cohere For AI | EMNLP 2024 | [How Does Quantization Affect Multilingual LLMs?](https://aclanthology.org/2024.findings-emnlp.935/) |
 | 24.12 | ETH Zurich | Conference | [Exploiting LLM Quantization](https://openreview.net/pdf?id=496720b3c860111b95ac8634349dcc88) |
+| 24.12 | Neudesic | arXiv | [Lightweight Safety Classification Using Pruned Language Models](https://arxiv.org/abs/2412.13435) |
 | 25.01 | CISPA Helmholtz Center for Information Security; Peking University | ICLR 2025 | [SaLoRA: Safety-Alignment Preserved Low-Rank Adaptation](https://arxiv.org/abs/2501.01765) |
+| 25.01 | IIIT Hyderabad | arXiv | [Enhancing AI Safety Through the Fusion of Low-Rank Adapters](https://arxiv.org/abs/2501.06208) |
 | 25.02 | Zhejiang University; University of Waterloo; Sun Yat-sen University | USENIX Security 2025 | [Activation Approximations Can Incur Safety Vulnerabilities Even in Aligned LLMs: Comprehensive Analysis and Defense](https://arxiv.org/abs/2502.00840) |
 | 25.04 | The Hong Kong University of Science and Technology | ICLR 2025 | [Durable Quantization Conditioned Misalignment Attack on Large Language Models](https://proceedings.iclr.cc/paper_files/paper/2025/hash/376b1b131609e764f687afca832e62b3-Abstract-Conference.html) |
 | 25.05 | University of Calgary; Vector Institute | ICML 2025 | [Does Compression Exacerbate Large Language Models' Social Bias?](https://openreview.net/pdf?id=iFFfAbFp8a) |
 | 25.05 | Ruhr University Bochum; UAR Research Center | NAACL 2025 | [The Impact of Inference Acceleration on Bias of LLMs](https://aclanthology.org/2025.naacl-long.91) |
 | 25.05 | East China Normal University | ACL 2025 Findings | [Hierarchical Safety Realignment: Lightweight Restoration of Safety in Pruned Large Vision-Language Models](https://arxiv.org/abs/2505.16104) |
+| 25.06 | Tsinghua University | arXiv | [The Security Threat of Compressed Projectors in Large Vision-Language Models](https://arxiv.org/abs/2506.00534) |
+| 25.06 | University of Surrey | arXiv | [SecurityLingua: Efficient Defense of LLM Jailbreak Attacks via Security-Aware Prompt Compression](https://arxiv.org/abs/2506.12707) |
+| 25.06 | University of São Paulo | arXiv | [LoX: Low-Rank Extrapolation Robustifies LLM Safety Against Fine-tuning](https://arxiv.org/abs/2506.15606) |
 | 25.06 | Zhejiang University; Hangzhou High-Tech Zone (Binjiang) Institute of Blockchain and Data Security; Sun Yat-sen University | ICML 2025 | [Q-resafe: Assessing Safety Risks and Quantization-aware Safety Patching for Quantized Large Language Models](https://arxiv.org/abs/2506.20251) |
 | 25.06 | University of Southampton; University of Liverpool | TACL 2025 | [Safe Pruning LoRA: Robust Distance-Guided Pruning for Safety Alignment in Adaptation of LLMs](https://aclanthology.org/2025.tacl-1.67/) |
 | 25.07 | Red Hat AI; IST Austria | ACL 2025 | ["Give Me BF16 or Give Me Death"? Accuracy-Performance Trade-offs in LLM Quantization](https://aclanthology.org/2025.acl-long.1304/) |
@@ -90,15 +97,18 @@ Model compression techniques, such as quantization, pruning, distillation, and l
 | 25.11 | ALMAnaCH Inria Paris, France | TACL 2025 | [Benchmarking Linguistic Diversity of Large Language Models](https://aclanthology.org/2025.tacl-1.69/) |
 | 25.12 | Huazhong University of Science and Technology | ICML 2025 | [Understanding the Unfairness in Network Quantization](https://icml.cc/virtual/2025/poster/43689) |
 | 26.01 | Universitas Indonesia | arXiv | [Preserving Fairness and Safety in Quantized LLMs Through Critical Weight Protection](https://arxiv.org/abs/2601.12033) |
+| 26.01 | Griffith University | arXiv | [Less Is More — Until It Breaks: Security Pitfalls of Vision Token Compression in Large Vision-Language Models](https://arxiv.org/abs/2601.12042) |
 | 26.01 | University of Georgia; University of North Texas; Hong Kong Polytechnic University; Northeastern University | arXiv | [Q-realign: Piggybacking Realignment on Quantization for Safe and Efficient LLM Deployment](https://arxiv.org/abs/2601.08089) |
 | 26.02 | University College London; University of Tübingen | arXiv | [UniComp: A Unified Evaluation of Large Language Model Compression](https://arxiv.org/abs/2602.09130) |
 | 26.02 | UC Berkeley; Meta Superintelligence Labs | arXiv | [Uncertainty Drives Social Bias Changes in Quantized Large Language Models](https://arxiv.org/abs/2602.06181) |
 | 26.03 | Shanghai University | TACL 2026 | [Safety-Potential Pruning for Enhancing Safety Prompts Against VLM Jailbreaking Without Retraining](https://arxiv.org/abs/2603.14219) |
 | 26.04 | Mohamed bin Zayed University of Artificial Intelligence | arXiv | [Shorter, but Still Trustworthy? An Empirical Study of Chain-of-Thought Compression](https://arxiv.org/abs/2604.04120) |
+| 26.04 | CISPA Helmholtz Center for Information Security | arXiv | [Pruning Unsafe Tickets: A Resource-Efficient Framework for Safer and More Robust LLMs](https://arxiv.org/abs/2604.15780) |
 | 26.04 | Zhejiang University; National University of Singapore | WWW 2026 | [LLMQuA: Practical Backdoor Injection on Large Language Model Quantization](https://dl.acm.org/doi/10.1145/3774904.3792256) |
 | 26.05 | ETH Zurich | arXiv | [Widening the Gap: Exploiting LLM Quantization via Outlier Injection](https://arxiv.org/abs/2605.15152) |
 | 26.05 | Meta | IEEE Cloud Summit 2026 | [Quantization Undoes Alignment: Bias Emergence in Compressed LLMs Across Models and Precision Levels](https://arxiv.org/abs/2605.15208) |
 | 26.06 | Stanford University; California Institute of Technology | arXiv | [Alignment Collapse Under KV Cache Quantization: Diagnosis and Mitigation](https://arxiv.org/abs/2606.09864) |
+| 26.06 | Tufts University | arXiv | [AnchorKV: Safety-Aware KV Cache Compression via Soft Penalty with a Refusal Anchor](https://arxiv.org/abs/2606.17872) |
 | 26.06 | University of Luebeck | arXiv | [FloatDoor: Platform-Triggered Backdoors in LLMs](https://arxiv.org/abs/2606.19535) |
 | 26.06 | Shandong University | ACM CCS 2026 | [Breaking the Rounding Trap: Securing LLMs against Quantization-Conditioned Backdoors](https://arxiv.org/abs/2606.29239) |
 | 26.09 | Jean Monnet University | EMNLP 2026 | [Debias-SparseGPT: Bias-Aware Pruning for Large Language Models](https://arxiv.org/abs/2609.02496) |
